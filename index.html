@@ -110,7 +110,7 @@ footer nav{display:flex;gap:8px 28px;flex-wrap:wrap}
 footer a{color:#D3DDEC;text-decoration:none;background:linear-gradient(#fff,#fff) 0 100%/0 1px no-repeat;padding-bottom:2px;transition:background-size .35s ease,color .2s}
 footer a:hover{color:#fff;background-size:100% 1px}
 
-/* ===== 11. Responsive ===== */
+
 @media (max-width:860px){.split,.peers{grid-template-columns:1fr}}
 @media (max-width:560px){.creds div{grid-template-columns:1fr;gap:0}.ref{grid-template-columns:60px 1fr}.nav ul{gap:4px 18px}}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important}.hero .col>*,.js .reveal.in{animation:none!important}.js .reveal{opacity:1}.ref:hover,.peer:hover,.hero .cta:hover{transform:none}}
@@ -118,7 +118,7 @@ footer a:hover{color:#fff;background-size:100% 1px}
 </head>
 <body>
 
-<!-- Navegación superior -->
+
 <header class="nav">
   <div class="col">
     <a class="name" href="#inicio">Fabricio Gabriel Chura Garcia</a>
@@ -134,7 +134,7 @@ footer a:hover{color:#fff;background-size:100% 1px}
 </header>
 
 <main>
-  <!-- Hero: banner azul marino, borde borgoña y trama de líneas finas (sin fotografía personal) -->
+
   <section class="hero" id="inicio">
     <svg class="pattern" aria-hidden="true" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1200 600">
       <defs>
@@ -159,7 +159,7 @@ footer a:hover{color:#fff;background-size:100% 1px}
     </div>
   </section>
 
-  <!-- Sección 1: Presentación -->
+
   <section class="s" id="presentacion">
     <div class="col">
       <div class="sec-head"><h2>Presentación</h2></div>
@@ -169,7 +169,7 @@ footer a:hover{color:#fff;background-size:100% 1px}
     </div>
   </section>
 
-  <!-- Sección 2: Universidad -->
+
   <section class="s alt" id="universidad">
     <div class="col">
       <div class="sec-head"><h2>Universidad</h2></div>
@@ -188,7 +188,7 @@ footer a:hover{color:#fff;background-size:100% 1px}
     </div>
   </section>
 
-  <!-- Sección 3: Cátedra -->
+
   <section class="s" id="catedra">
     <div class="col">
       <div class="sec-head"><h2>Cátedra</h2></div>
@@ -215,7 +215,7 @@ footer a:hover{color:#fff;background-size:100% 1px}
     </div>
   </section>
 
-  <!-- Sección 4: Compañeros -->
+
   <section class="s alt" id="companeros">
     <div class="col">
       <div class="sec-head"><h2>Red Académica y Compañeros</h2></div>
@@ -242,7 +242,7 @@ footer a:hover{color:#fff;background-size:100% 1px}
 </footer>
 
 <script>
-/* Aparición progresiva al hacer scroll (fade-in + leve desplazamiento vertical) */
+
 (function(){
   var items = document.querySelectorAll('section.s .sec-head, section.s .prose, section.s .go, section.s .photo, section.s .creds, section.s .refs li, section.s .peers li');
   document.querySelectorAll('section.s .refs li, section.s .peers li').forEach(function(el, i){ el.style.animationDelay = ((i % 6) * 0.09) + 's'; });
